@@ -5,6 +5,9 @@
 	"origin.originsplus.dwarven.name": "Dwarven",
 	"origin.originsplus.dwarven.description": "You descend from a line accustomed to working underground.",
 	
+	"origin.originsplus.hobbit.name": "Hobbit",
+	"origin.originsplus.hobbit.description": "Also known as Halflings. You descend from a line who lived in the Shire. Small, and always hungry, they can always be counted on to give you a good time at parties.",
+	
 	"origin.originsplus.icicle.name": "Snowman",
 	"origin.originsplus.icicle.description": "The frost bitten snow has given you birth and your power is as mighty as the snow.",
 	
@@ -84,6 +87,26 @@
 	"power.originsplus.block_sleep.description": "You can't sleep and others can't sleep if they are near you.",
 	
 	"power.originsplus.burn_in_daylight.name": "I'm melting!",
-	"power.originsplus.burn_in_daylight.description": "You automatically burn in daylight if you aren't wearing a helmet or pumpkin."
+	"power.originsplus.burn_in_daylight.description": "You automatically burn in daylight if you aren't wearing a helmet or pumpkin.",
 	
+	"power.originsplus.hobbit_appetite.name": "Hobbit Appetite",
+	"power.originsplus.hobbit_appetite.description": "Accustomed to eating seven meals a day, you get hungry quicker. Now then, where's second breakfast?",
+	
+	"power.originsplus.hobbit_darkvision.name": "Improved Perception",
+	"power.originsplus.hobbit_darkvision.description": "Your sense of sight is slightly improved, giving you better vision in the dark.",
+	
+	"power.originsplus.hobbit_size.name": "Halfling",
+	"power.originsplus.hobbit_size.description": "You are around half the height of the average human. You can also expect to move a little slower than one on average.",
+	
+	"power.originsplus.hole_builder.name": "Hole Builder",
+	"power.originsplus.hole_builder.description": "Experts at creating hobbit holes, you can dig through sediment quicker by activating your ability with G. Digging faster will exhaust you quicker.",
+	
+	"power.originsplus.homesick.name": "Homesick",
+	"power.originsplus.homesick.description": "Hobbits don't really like going on adventures. They instead much prefer to tend to the land and have warm, hearty meals at home. You get speed and defense buffs when close to your spawnpoint, and speed debuffs when away.",
+
+	"power.originsplus.hobbit_luck.name": "Uncanny Luck",
+	"power.originsplus.hobbit_luck.description": "Those hobbits that do end up on an adventure seem to have the luck of twenty horseshoes and five four leaf clovers. Bandobras Took once knocked a goblin chieftain's head clean off his head, through the air, and down into a rabbit hole!",
+
+	"power.originsplus.no_horse.name": "Cannot mount Horses",
+	"power.originsplus.no_horse.description": "Unfortunately, as a hobbit, horses and donkeys are too large for you to be able to mount! Sorry :/"
 }

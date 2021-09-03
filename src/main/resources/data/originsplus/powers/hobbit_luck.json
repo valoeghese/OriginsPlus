@@ -1,0 +1,9 @@
+{
+  "type": "apoli:attribute",
+  "modifier": {
+    "attribute": "generic.luck",
+    "operation": "multiply_total",
+    "value": 1.0,
+    "name": "hobbit luck"
+  }
+}

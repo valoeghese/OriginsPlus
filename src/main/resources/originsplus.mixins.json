@@ -16,7 +16,8 @@
   	"FollowTargetGoalMixin",
   	"VillagerHostilesSensorMixin",
   	"SnowGolemEntityMixin",
-  	"IronGolemEntityMixin"
+  	"IronGolemEntityMixin",
+  	"HorseBaseEntityMixin"
   ],
   "client": [
   ],

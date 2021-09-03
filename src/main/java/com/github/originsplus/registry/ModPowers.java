@@ -1,8 +1,21 @@
 package com.github.originsplus.registry;
 
+import java.util.List;
+
 import com.github.originsplus.OriginsPlus;
-import com.github.originsplus.power.*;
+import com.github.originsplus.power.BlockPlayerSleep;
+import com.github.originsplus.power.ExplodePower;
+import com.github.originsplus.power.GrapplePower;
+import com.github.originsplus.power.HomesickPower;
+import com.github.originsplus.power.ImproveSpawnersPower;
+import com.github.originsplus.power.ModifyBehavior;
 import com.github.originsplus.power.ModifyBehavior.EntityBehavior;
+import com.github.originsplus.power.ModifyBlockDrop;
+import com.github.originsplus.power.ModifyScalePower;
+import com.github.originsplus.power.NoHorsePower;
+import com.github.originsplus.power.SnowballDamagePower;
+import com.github.originsplus.power.WaterWalkingPower;
+
 import io.github.apace100.apoli.data.ApoliDataTypes;
 import io.github.apace100.apoli.power.Active;
 import io.github.apace100.apoli.power.PowerTypeReference;
@@ -13,11 +26,10 @@ import io.github.apace100.apoli.util.HudRender;
 import io.github.apace100.calio.data.SerializableData;
 import io.github.apace100.calio.data.SerializableDataType;
 import io.github.apace100.calio.data.SerializableDataTypes;
+import net.fabricmc.fabric.api.entity.event.v1.ServerPlayerEvents;
 import net.minecraft.entity.EntityType;
 import net.minecraft.sound.SoundEvent;
 import net.minecraft.util.registry.Registry;
-
-import java.util.List;
 
 public class ModPowers {
 
@@ -113,6 +125,9 @@ public class ModPowers {
 				new SerializableData().add("strength", SerializableDataTypes.INT, 1), (data) -> (type, player) -> {
 					return new WaterWalkingPower(type, player, data.getInt("strength"));
 				}).allowCondition());
+
+		register(new PowerFactory<>(OriginsPlus.identifier("homesick"), new SerializableData(), data -> HomesickPower::new));
+		register(new PowerFactory<>(OriginsPlus.identifier("no_horse"), new SerializableData(), data -> NoHorsePower::new));
 	}
 
 	private static void register(PowerFactory serializer) {

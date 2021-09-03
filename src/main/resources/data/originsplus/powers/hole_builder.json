@@ -1,0 +1,29 @@
+{
+	"type": "origins:modify_break_speed",
+	"modifier": {
+		"operation": "multiply_total",
+		"value": 1.25,
+		"name": "%s faster break speed."
+	},
+	"block_condition": {
+		"type":"origins:or",
+		"conditions": [
+			{
+				"type": "origins:in_tag",
+				"tag": "minecraft:mineable/shovel"
+			},
+			{
+				"type": "origins:in_tag",
+				"tag": "minecraft:sand"
+			},
+			{
+				"type": "origins:in_tag",
+				"tag": "minecraft:dirt"
+			}
+		]
+	},
+	"condition": {
+		"type": "origins:power_active",
+		"power": "originsplus:hastenize"
+	}
+}
